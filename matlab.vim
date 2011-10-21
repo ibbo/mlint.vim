@@ -19,7 +19,7 @@
 "    You should have received a copy of the GNU General Public License
 "    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 "
-" Version: 0.5
+" Version: 0.6
 "
 " The following variables affect this plugin:
 "
@@ -42,7 +42,7 @@ if exists("b:did_mlint_plugin")
 endif
 " This variable can be anything as long as it exists.
 " We may as well set it to something useful (like the version number)
-let b:did_mlint_plugin = 5
+let b:did_mlint_plugin = 6
 
 " This plugin uses line continuation...save cpo to restore it later
 let s:cpo_sav = &cpo
